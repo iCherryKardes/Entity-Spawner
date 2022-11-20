@@ -1,0 +1,4 @@
+	local door = Text
+	local Figure = game:GetService("Workspace").CurrentRooms[door].FigureSetup.FigureRagdoll:Clone()
+	Figure.Parent = game:GetService("Workspace").CurrentRooms[door].FigureSetup
+	Figure.Position = Vector3.new(game:GetService("Workspace").CurrentRooms[door].FigureSetup.FigureRagdoll);
